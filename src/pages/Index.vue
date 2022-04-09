@@ -15,7 +15,7 @@
           </div>
           <div class="column is-5">
             <figure>
-              <img class="" src="../assets/images/MoonBook-Retina.svg">
+              <img class="" src="../assets/images/MoonBook-Retina.svg" />
             </figure>
           </div>
         </div>
@@ -51,21 +51,19 @@ query {
 </page-query>
 
 <script>
-import PostList from '@/components/PostList.vue'
+import PostList from "@/components/PostList.vue";
 export default {
   components: {
-    PostList
+    PostList,
   },
   metaInfo: {
-    title: "Iqbal Mohammad Abdul Ghoni",
+    title: "Duong Le Ha",
     meta: [
       {
         name: "description",
-        content:
-          `I'm a tech enthusiast. I love IT and Robotics engineering. ` +
-          `I currently study Electrical Engineering degree at ` +
-          `University of Sultan Ageng Tirtayasa. I'm also available for ` +
-          `freelance Software Engineering job`,
+        content: `I am currently studying for a Computer Science Engineering degree
+              at the Vietnam - Korea University of Information and Communication
+              Technology`,
       },
     ],
   },
