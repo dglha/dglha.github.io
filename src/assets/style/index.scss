@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import "~bulma/sass/utilities/initial-variables";
+
+$widescreen-enabled: false;
+$family-sans-serif: 'Josefin Sans', sans-serif;
+$body-size: $size-6;
+$text: var(--text-color);
+$text-invert: var(--text-color-invert);
+$text-light: var(--text-color-light);
+$text-strong: var(--text-color-strong);
+$title-color: var(--title-color);
+$subtitle-color: var(--subtitle-color);
+$navbar-background-color: var(--background-color, $white);
+$navbar-item-color: var(--text-color, $black-ter);
+$navbar-item-hover-background-color: var(--background-color, $white-bis);
+$navbar-item-active-color: var(--text-color, $black);
+$navbar-dropdown-background-color: var(--background-color, $white-bis);
+$navbar-dropdown-item-hover-color: var(--text-color, $black-ter);
+$navbar-dropdown-item-hover-background-color: var(--background-color, $white-bis);
+$navbar-dropdown-item-active-background-color: var(--background-color, $white-bis);
+$button-color: var(--text-color, $black);
+$button-background-color: var(--background-color-lighter, $white-bis);
+$button-border-color: var(--background-color-lighter, $white-bis);
+$link-hover: var(--text-color, $black);
+$hr-background-color: var(--background-color-lighter);
+
+$code: var(--text-color);
+$code-background: var(--background-color-lighter);
+$table-color: var(--text-color);
+$table-cell-border: 1px solid var(--background-color-grey);
+$table-background-color: var(--background-color, $white);
+$table-row-hover-background-color: var(--background-color-lighter, $white);
+$table-striped-row-even-background-color: var(--background-color-lighter, $white);
+$table-striped-row-even-hover-background-color: var(--background-color, $white);
+
+$content-blockquote-background-color: var(--background-color-lighter, $white-ter);
+$content-blockquote-border-left: 5px solid var(--background-color-grey, $grey-lighter);
+
+$blue: #00a8ff;
+$yellow: #fbc531;
+$green: #4cd137;
+$red: #e84118;
+
+@import "~bulma/bulma";
+
+:root {
+  --text-color: #{$black-bis};
+  --text-color-invert: #{findColorInvert($black-bis)};
+  --text-color-light: #{$black-ter};
+  --text-color-strong: #{$black};
+  --title-color: #{$grey-darker};
+  --subtitle-color: #{$grey-dark};
+  --background-color: #{$white};
+  --background-color-lighter: #{$white-ter};
+  --background-color-grey: #{$grey-lighter};
+}
+
+.dark-mode {
+  --text-color: #{$white-bis};
+  --text-color-invert: #{findColorInvert($white-bis)};
+  --text-color-light: #{$white-ter};
+  --text-color-strong: #{$white};
+  --title-color: #{findColorInvert($grey-darker)};
+  --subtitle-color: #{findColorInvert($grey-dark)};
+  --background-color: #{$black};
+  --background-color-lighter: #{$black-ter};
+  --background-color-grey: #{$grey-darker};
+
+  --post-link-border-left-color: #{$black};
+  --post-link-border-left-color-hover: #{findColorInvert(#192a56)};
+  --post-link-background-color-hover: #{findColorInvert(#dcdde1)};
+  --post-link-date-text-color: #{findColorInvert(#7f8fa6)};
+}
+
+#app {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 100%;
+  min-height: calc(100vh - #{$navbar-height});
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+html {
+  scrollbar-color: var(--background-color-grey, $white-ter) var(--background-color-lighter, $white);
+}
+
+.has-navbar-fixed-top {
+  margin-top: $navbar-height;
+}
+
+.tag.is-default {
+  background-color: var(--background-color-lighter);
+}
+
+.pager {
+  padding: 1.5rem 0;
+
+  .button.active {
+    @extend .button, .is-link;
+  }
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+
+  table {
+    @extend .table;
+    @extend .is-striped;
+  }
+}
+
+.title {
+  line-height: 1.5;
+}
+
+.content pre, pre {
+  border-radius: 3px;
+  padding: .5rem .8rem;
+  margin: .5em 0;
+  scrollbar-width: thin;
+}
+
+.content img.g-image {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  border-radius: 4px;
+  display: block;
+}
+
+.anchor-link {
+  display: none;
+}
+
+.post-content .content {
+  ul {
+    margin-bottom: .7rem;
+  }
+
+  li {
+    p {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+img.emoji {
+   height: 1.2em;
+   width: 1.2em;
+   margin: -.1em .05em -.1em .05em;
+   vertical-align: -0.1em;
+}
