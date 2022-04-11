@@ -5,7 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Duong Le Ha',
+  siteUrl: 'https://dlha.netlify.app/',
+  icon: './src/icon.png',
   
   templates: {
     Single: '/:name',
@@ -40,7 +42,7 @@ module.exports = {
     remark: {
       autolinkClassName: 'anchor-link',
       plugins: [
-        [ 'gridsome-plugin-remark-shiki', { theme: 'dark_vs', skipInline: true } ],
+        [ 'gridsome-plugin-remark-shiki', { theme: 'min-dark', skipInline: true } ],
         [ 'remark-toc', {} ]
       ]
     }

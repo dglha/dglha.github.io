@@ -2,7 +2,7 @@
   <div class="container made-with">
     With <g-link to="/love" class="has-text-danger">❤️</g-link> by dlha
     <span class="is-pulled-right is-hidden-mobile">
-      Templated by 
+      Template by 
       <a href="https://github.com/Arsfiqball" target="_blank">Arsfiqball</a>
     </span>
     <!-- <span class="is-pulled-right is-hidden-mobile">

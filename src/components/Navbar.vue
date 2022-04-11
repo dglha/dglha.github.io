@@ -3,7 +3,7 @@
     <div class="container">
       <div class="navbar-brand">
         <g-link to="/" class="navbar-item">
-          <span style="display: inline-block; line-height: 1; padding: 2px 2px; border-radius: 8px; background: white;">
+          <span style="display: inline-block; line-height: 1; padding: 2px 2px; border-radius: 8px;">
             <!-- <img src="../icon.png" style="display: block;"> -->
             dlha
           </span>
@@ -18,7 +18,7 @@
           Contact
         </g-link>
         <a class="navbar-item is-hidden-tablet" @click="$emit('toggle-dark-mode', isDarkMode)">
-          {{ isDarkMode ? '🌙' : '☀️' }}
+          {{ isDarkMode ? '🌕' : '🌞' }}
         </a>
 
         <a role="button" @click="isActive = !isActive" :class="['navbar-burger burger', isActive ? 'is-active' : null]" aria-label="menu">
@@ -31,7 +31,7 @@
       <div :class="['navbar-menu', isActive ? 'is-active' : null]">
         <div class="navbar-start">
           <a class="navbar-item is-hidden-mobile" @click="$emit('toggle-dark-mode', isDarkMode)">
-            {{ isDarkMode ? '🌙' : '☀️' }}
+            {{ isDarkMode ? '🌕' : '🌞' }}
           </a>
         </div>
         <div class="navbar-end">

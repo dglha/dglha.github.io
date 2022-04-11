@@ -11,7 +11,7 @@
     "@gridsome/transformer-remark": "^0.3.0",
     "bulma": "^0.9.3",
     "gridsome": "^0.7.0",
-    "gridsome-plugin-remark-shiki": "^0.3.0",
+    "gridsome-plugin-remark-shiki": "^0.6.0",
     "remark-toc": "^7.0.0"
   },
   "devDependencies": {

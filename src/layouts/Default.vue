@@ -41,6 +41,21 @@ export default {
       isDarkMode: false
     }
   },
+
+  methods: {
+    toggleDarkMode() {
+      const theme = this.isDarkMode ? 'light' : 'dark'
+      this.setTheme(theme)
+    },
+
+    setTheme(theme) {
+      this.isDarkMode = theme === 'dark'
+      if(this.isDarkMode) document.documentElement.classList.add('dark-mode')
+      else document.documentElement.classList.remove('dark-mode')
+      localStorage.setItem('theme', theme)
+    }
+
+  }
 };
 </script>
 
