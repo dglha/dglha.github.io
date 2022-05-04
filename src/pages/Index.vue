@@ -57,7 +57,7 @@ export default {
     PostList,
   },
   metaInfo: {
-    title: "Duong Le Ha",
+    title: "Personal Blogs",
     meta: [
       {
         name: "description",

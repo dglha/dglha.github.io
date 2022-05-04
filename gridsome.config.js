@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Duong Le Ha',
+  siteName: 'dlha blogs',
   siteUrl: 'https://dlha.netlify.app/',
   icon: './src/icon.png',
   
