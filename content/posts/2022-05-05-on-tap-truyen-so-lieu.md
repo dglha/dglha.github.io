@@ -428,11 +428,13 @@ Input: `1001100010111`
 
 - **NRZ-L**: Non Return to Zelo Level
   
-  - Gặp `1`: Vẽ cao.
+  - Gặp `0`: Vẽ cao.
   
-  - Gặp `0`: Vẽ thấp.
+  - Gặp `1`: Vẽ thấp.
 
     ![NRZ-L](./images/05-05-22-data-transmission/nrzl.png)
+
+    **Hình sai chưa vẽ lại.**
 
 - **bipolar AMI**:
   
@@ -460,10 +462,10 @@ Giải mã Polar NRZ-L dạng sóng hình như sau:
 
 ![Cau6](./images/05-05-22-data-transmission/Cau6.png)
 
-- `1`: Vẽ cao
+- `0`: Vẽ cao
 
-- `0`: Vẽ thấp
+- `1`: Vẽ thấp
 
-=> `10110001`
+=> `01001110`
 
 **Note:** Update lý thuyết sau nếu rảnh 😅.
