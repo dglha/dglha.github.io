@@ -15,9 +15,10 @@ for my surroundings through my awesome innovation.
 
 | Start | End    | School                                                                 |
 | ----- | ------ | ---------------------------------------------------------------------- |
-| 2019  | Now    | Vietnam - Korea University of Information and Communication Technology |
+| 2019  | 2024    | Vietnam - Korea University of Information and Communication Technology |
 | 2016  | 2019   | Phan Boi Chau - Gia Lai (High School)                                  |
 
 #### Experiences
 
-* Software Engineer at SafeHorizons [July - Des 2021]
+* Software Engineer at Datahouse Asia [Aug 2023 - Present]
+* Software Engineer at Lua Software [Oct 2022 - Aug 2023]

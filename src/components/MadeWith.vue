@@ -1,6 +1,6 @@
 <template>
   <div class="container made-with">
-    With <g-link to="/love" class="has-text-danger">❤️</g-link> by dlha
+    With <g-link to="/" class="has-text-danger">❤️</g-link> by dlha
     <span class="is-pulled-right is-hidden-mobile">
       Template by 
       <a href="https://github.com/Arsfiqball" target="_blank">Arsfiqball</a>

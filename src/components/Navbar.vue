@@ -41,6 +41,9 @@
           <a href="https://fb.com/ha.duong212" target="_blank" class="navbar-item">
             Facebook
           </a>
+          <a href="https://drive.google.com/file/d/1Qxx4Zf1p8L8VG5tYPr8L7XmYpBZ4SVlp/view?usp=drive_link" target="_blank" class="navbar-item">
+            My CV
+          </a>
         </div>
       </div>
     </div>
